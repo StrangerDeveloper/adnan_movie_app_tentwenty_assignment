@@ -3,13 +3,10 @@ import 'package:adnan_movie_app_tentwenty_assignment/src/config/injector/app_inj
 class English {
   Map<String, String> get english => {
     // Error messages
-    injectedAppTranslationKeys.unauthorizedSessionExpired:
-        'Unauthorized. Session expired',
+    injectedAppTranslationKeys.unauthorizedSessionExpired: 'Unauthorized. Session expired',
     injectedAppTranslationKeys.noPermissionToAccess: 'No permission to access',
-    injectedAppTranslationKeys.resourceNotFoundPleaseTryAgainLater:
-        'Resource not found. Please try again later',
-    injectedAppTranslationKeys.serverErrorPleaseTryAgainLater:
-        'Server error. Please try again later',
+    injectedAppTranslationKeys.resourceNotFoundPleaseTryAgainLater: 'Resource not found. Please try again later',
+    injectedAppTranslationKeys.serverErrorPleaseTryAgainLater: 'Server error. Please try again later',
     injectedAppTranslationKeys.regionNotValid: 'Region not valid',
     injectedAppTranslationKeys.unexpectedError: 'Unexpected error',
     injectedAppTranslationKeys.somethingWentWrong: 'Something went wrong',
@@ -52,17 +49,14 @@ class English {
     injectedAppTranslationKeys.searchForMovies: 'Search for movies',
     injectedAppTranslationKeys.failedToLoadMovies: 'Failed to load movies',
     injectedAppTranslationKeys.failedToSearchMovies: 'Failed to search movies',
-    injectedAppTranslationKeys.failedToLoadMovieDetails:
-        'Failed to load movie details',
+    injectedAppTranslationKeys.failedToLoadMovieDetails: 'Failed to load movie details',
     injectedAppTranslationKeys.noBookingsYet: 'No bookings yet',
-    injectedAppTranslationKeys.yourMovieBookingsWillAppearHere:
-        'Your movie bookings will appear here',
+    injectedAppTranslationKeys.yourMovieBookingsWillAppearHere: 'Your movie bookings will appear here',
     injectedAppTranslationKeys.bookingConfirmed: 'Booking confirmed!',
     injectedAppTranslationKeys.resultsFound: 'Results Found',
 
     // Placeholders
-    injectedAppTranslationKeys.searchMoviesPlaceholder:
-        'TV shows, movies and more',
+    injectedAppTranslationKeys.searchMoviesPlaceholder: 'TV shows, movies and more',
 
     injectedAppTranslationKeys.dashboard: "Dashboard",
     injectedAppTranslationKeys.watch: "Watch",
@@ -71,7 +65,6 @@ class English {
 
     // Coming soon
     injectedAppTranslationKeys.comingSoon: "Coming Soon",
-    injectedAppTranslationKeys.comingSoonMessage:
-        "This feature is under development and will be available soon.",
+    injectedAppTranslationKeys.comingSoonMessage: "This feature is under development and will be available soon.",
   };
 }
